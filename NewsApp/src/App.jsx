@@ -9,7 +9,7 @@ import React, { Component } from 'react'
 export default class App extends Component {
   render() {
     return (
- <div>hello my first class component</div>
+<div>Sameer Maharjan</div>
     )
   }
 }
