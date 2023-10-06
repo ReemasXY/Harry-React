@@ -312,7 +312,7 @@ export default class News extends Component {
       }
     });
     this.setState({
-      articles: this.articles,
+      articles: this.articles ,
     });
   }
 
