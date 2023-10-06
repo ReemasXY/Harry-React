@@ -35,7 +35,7 @@ export default class Navbar extends Component {
               </h5>
               <button
                 type="button"
-                className={`btn-close btn-close-light  shadow-none`}
+                className={`btn-close btn-close-white  shadow-none`}
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
