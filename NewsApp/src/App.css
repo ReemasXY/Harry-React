@@ -1,0 +1,36 @@
+.Sidebar{
+    height: 100vh;
+    position: sticky;
+    top:56px;
+
+}
+
+body{
+    /* overflow-x: hidden; */
+}
+li a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+li a:hover{
+    color: black;
+}
+
+@media screen and (max-width:764px ) {
+    .Sidebar{
+        height: 100vh;
+        position: fixed;
+        top:56px;
+    width: 0;
+    overflow: hidden;
+    padding-left: 0;
+    z-index: 1000;
+    transition: width 0.2s linear;
+    }
+}
+
+.width{
+    width: 100vw;
+}
